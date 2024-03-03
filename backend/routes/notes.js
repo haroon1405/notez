@@ -1,4 +1,4 @@
-// Import express and set up router
+// Import express and set up the router
 const express = require("express");
 const router = express.Router();
 
