@@ -5,7 +5,7 @@ const app = express();
 const mongoose = require("mongoose");
 const noteRoutes = require("./routes/notes.js")
 
-// Use json middleware
+// Use JSON middleware
 app.use(express.json());
 
 // Use Routes
