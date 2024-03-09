@@ -11,7 +11,7 @@ app.use(express.json());
 // Use Routes
 app.use("/notes",noteRoutes);
 
-// Connect to DB
+// Connect to Database
 mongoose.connect(process.env.MONGO_URI)
 .then(()=>{
     // Listen on Port
