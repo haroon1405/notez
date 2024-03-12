@@ -14,7 +14,7 @@ app.use("/notes",noteRoutes);
 // Connect to DB
 mongoose.connect(process.env.MONGO_URI)
 .then(()=>{
-    // Listen on Port
+    // Listen on port
     app.listen(process.env.PORT,()=>{
         console.log(`Connect to DB & Listening on Port-${process.env.PORT}`)
     })
